@@ -12,13 +12,13 @@ function Jump_Lines(num)
     for i=1, num do
         print('\n')
     end
-end 
+end
 
 
 --Pegando os input sobre as operações
 function Get_op()
     Jump_Lines(1)
-    print("a")
+    print("\t\tEscolha a operação desejada: \n\t\t (Ex: +, -, *, /, //, ^^,)")
 end
 
 
